@@ -3,7 +3,7 @@ name: Deploy Hauierz Frontend
 on:
   push:
     branches:
-      - deployment
+      - master
 jobs:
   build:
     name: Deploy_Frontend
